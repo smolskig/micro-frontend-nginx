@@ -6,8 +6,8 @@ Este projeto consiste em 2 aplicações, uma feita em React, outra feita em Vue 
 
 O intuito do exercicio é criar duas rotas de acesso no mesmo domínio para acessar as aplicações, de modo que elas sejam independentes na hora do build.
 
-### Como rodar o projeto
-> Para rodar o projeto, você necessita ter o Docker Desktop instalado em sua máquina.
+### Como rodar o projeto?
+> Para rodar o projeto, é necessário ter o Docker Desktop instalado na máquina.
 
 #### 1º passo:
 Clone o projeto em sua máquina.
