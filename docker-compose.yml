@@ -1,0 +1,21 @@
+version: "3.7"
+services:
+  app-vue:
+    container_name: app-vue
+    build:
+      context: ./vue-app
+
+  app-react:
+    container_name: app-react
+    build:
+      context: ./react-app
+
+  orchestrator:
+    container_name: orchestrator
+    ports:
+      - 80:80
+    depends_on:
+      - app-vue
+      - app-react
+    build:
+      context: . 
