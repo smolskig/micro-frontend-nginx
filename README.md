@@ -2,7 +2,7 @@
 
 ### Estudo de micro frontends utilizando `Docker` e `NGINX`
 
-Este projeto consiste em 2 aplicações básicas, uma feita em React, outra feita em Vue e os arquivos de configuração do Docker + nginx.
+Este projeto consiste em 2 aplicações, uma feita em React, outra feita em Vue e os arquivos de configuração do Docker + nginx.
 
 O intuito do exercicio é criar duas rotas de acesso no mesmo domínio para acessar as aplicações, de modo que elas sejam independentes na hora do build.
 
